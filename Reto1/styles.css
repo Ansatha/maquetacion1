@@ -94,7 +94,7 @@ h3 {
 	text-align:start;
 }
 
-#fondo3 {
+/* #fondo3 {
 	background-image: url("./img/90s_shapes.jpg");
 	padding: 100px 100px;
 	background-position: center;
@@ -111,21 +111,34 @@ h3 {
 	left: 0;
 	right: 0;
 	background-color: rgba(255, 255, 255, 0.8);
+} */
+
+#lists {
+    display: flex;
+	flex-flow: row;
+    justify-content:center;
+    align-items: center;
 }
 
-#table-title {
-	font-size: 30px;
+#films,#songs,#celebrities {
 	font-weight: bolder;
-	font-variant: small-caps;
-	color: rgb(0, 0, 0);
-	position: relative;
-	padding: 3%
+    color: rgb(0, 0, 0);
+	margin:50px
 }
 
-.table-elements {
-	font-size: 25px;
-	color: rgb(0, 0, 0);
-	position: relative;
-	text-align:start;
-	padding-left: 3%;
+li {
+	font-style: normal;
+    text-align: start;
+    font-style: normal;
+    font-weight: 100;
+}
+
+ul[id="personajes"], ul[id="películas"] {
+    font-style: italic;
+    margin: 1%;
+}
+
+ul[id="canciones"] {
+    font-style: normal;
+    font-weight: bold;
 }
