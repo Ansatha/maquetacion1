@@ -1,0 +1,131 @@
+#fondo {
+	background-image: url("./img/tapes.jpg");
+	padding: 350px 100px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+}
+
+#fondo:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.6)
+}
+
+h1 {
+	font-size: 80px;
+	color: rgb(240, 253, 55);
+	position: relative;
+	text-align: center;
+}
+
+h1:hover {
+	color: rgb(247, 133, 231);
+}
+
+.index-box {
+	padding: 1px 10px;
+	background-color: rgb(247, 252, 186);
+	background-size: cover;
+	color: rgb(250, 145, 145);
+}
+
+.index-box:hover {
+	background-color: rgb(247, 168, 168);
+	background-size: cover;
+	color: rgb(244, 253, 145);
+}
+
+#index {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.index-list {
+	font-size: 20px;
+	padding: 1px 10px;
+	text-align: center;
+	font-weight: bolder;
+	list-style: none;
+}
+.index-list:hover {
+	font-size: 22px;
+	text-align: center;
+	font-weight: bolder;
+	list-style: none;
+}
+
+#fondo2 {
+	background-image: url("./img/disk.jpg");
+	padding: 100px 100px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+}
+
+#fondo2:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(158, 158, 158, 0.5);
+}
+
+h3 {
+	font-size: 60px;
+	color: rgb(0, 0, 0);
+	position: relative;
+	text-align:start;
+}
+
+.intro-text {
+	font-size: 25px;
+	color: rgb(0, 0, 0);
+	position: relative;
+	text-align:start;
+}
+
+#fondo3 {
+	background-image: url("./img/90s_shapes.jpg");
+	padding: 100px 100px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+}
+
+#fondo3:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#table-title {
+	font-size: 30px;
+	font-weight: bolder;
+	font-variant: small-caps;
+	color: rgb(0, 0, 0);
+	position: relative;
+	padding: 3%
+}
+
+.table-elements {
+	font-size: 25px;
+	color: rgb(0, 0, 0);
+	position: relative;
+	text-align:start;
+	padding-left: 3%;
+}

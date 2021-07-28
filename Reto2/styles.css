@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(227, 241, 243);
+    
+}
+
+main {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    column-count: 2;
+    column-gap: 4em;
+	column-rule: 3px solid #bbb;
+    column-width: 140px;
+}
+
+#name {
+    text-align: center;
+}
+#position {
+    text-align: center;
+}
+
+#contacts {
+    column-count: 2;
+    column-gap: 1px
+}
+
+#pic_profile {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+    padding-left: 175px;
+}
+
+#pic_phone {
+    width: 30px;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 175px;
+}
+#pic_mail {
+    width: 30px;
+    height: auto;
+    border-radius: 30px;
+    padding-left: 175px;
+}
+#pic_address {
+    width: 30px;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 35px;
+}
+#pic_linkedin {
+    width: 30px;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+#pic_github {
+    width: 30px;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+#sectionL {
+    margin: 40px;
+    padding-left: 100px;
+    padding-top: 20px;
+
+}
